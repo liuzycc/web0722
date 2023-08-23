@@ -20,3 +20,8 @@ const url = new URL(host)
 url.searchParams.delete('token')
 // 重新设置链接
 window.history.replaceState({}, '', url.href)
+
+// 泛型  extends keyof typeof  inter
+// 运行时类型检测 zod 可以看下
+// 
+
